@@ -1,0 +1,6 @@
+body{
+    overflow: auto;
+    font-family: "Copperplate Gothic";background-image: linear-gradient(rgba(233, 13, 222, 0.152),rgba(243, 21, 243, 0.152)),url(https://i.pinimg.com/originals/2c/71/a1/2c71a14a40dd6dc2d8e37e20e1a81bbc.jpg);
+    font-size:18px;
+    font-weight: 800;
+}

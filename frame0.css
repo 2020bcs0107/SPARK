@@ -1,0 +1,47 @@
+body{
+    background-image: linear-gradient(rgba(233, 13, 222, 0.152),rgba(243, 21, 243, 0.152)),url(https://media.istockphoto.com/photos/bright-golden-particulate-3d-rendered-dna-on-a-black-bokeh-background-picture-id1155156771?k=6&m=1155156771&s=612x612&w=0&h=nO7E886LnfQ07aLpbhqLactBFhBYzBjK5bEfPBqS9k0=);
+    font-family: "Copperplate Gothic";
+}
+
+new-btn ul li{
+	display: inline-block;
+    padding-top:20%;
+    padding-bottom:60%;
+    margin: 0 2px;
+}
+new-btn ul li a{
+	color: white;
+	font-size:17px;
+	text-transform: uppercase;
+}
+a{
+    margin-right: 0%;
+    margin-top: 5%;
+    font-size: 150%;
+    color: rgb(255, 254, 253);
+    transition: 0.4s;
+    text-decoration: none;
+    border-radius: 6%;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    
+    cursor: pointer;
+}
+a:hover{
+	color: rgb(255, 255, 255);
+      transform: scale(1);
+      background-color: red;
+
+}
+ul{
+    line-height: 30px;
+}
+
+ul li{
+    padding-bottom: 10%;
+}
+
+.text{
+    color: white;
+}

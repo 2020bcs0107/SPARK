@@ -1,0 +1,143 @@
+body{
+    overflow: auto;
+    background-image: linear-gradient(rgba(10, 10, 10, 0.152),rgba(10, 10, 10, 0.152)),url(https://i.pinimg.com/originals/d5/84/dd/d584dd653f6778a70f8cfc3c3da512a7.jpg);
+    font-family: "Copperplate Gothic";
+    font-size:18px;
+    font-weight: 800;
+}
+.center{
+    color:rgb(230, 154, 154);
+    text-align: center;
+}
+.box1 {
+    font-size: 20px;
+    font-family: 'Copperplate Gothic';
+    top: 28%;
+	left:5%;
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	background:rgba(230, 214, 214, 0.74);
+	border-radius: 20px;
+	transition: .5s;
+}
+
+.box1:hover {
+    color: rgb(34, 32, 33);
+    transform: scale(1.15);
+    background-color:rgb(160, 151, 151) 
+}
+.box2 {
+    font-size: 20px;
+    font-family: 'Copperplate Gothic';
+    top: 28%;
+	left:38%;
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	background:rgba(230, 214, 214, 0.74);
+	border-radius: 20px;
+	transition: .5s;
+}
+
+.box2:hover {
+    color: rgb(22, 21, 22);
+    transform: scale(1.15);
+    background-color:rgb(160, 151, 151) 
+}
+.box3 {
+    font-size: 20px;
+    font-family: 'Copperplate Gothic';
+    top: 28%;
+	left:68%;
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	background:rgba(230, 214, 214, 0.74);
+	border-radius: 20px;
+	transition: .5s;
+}
+
+.box3:hover {
+    color: rgb(41, 39, 40);
+    transform: scale(1.15);
+    background-color:rgb(160, 151, 151) 
+}
+.img{
+    border-radius: 20px;
+}
+.butn1
+{
+    font-size: 20px;
+    font-family: 'Copperplate Gothic';
+    top: 70%;
+	left:7%;
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	background:rgba(22, 20, 20, 0.74);
+	border-radius: 20px;
+	transition: .5s;
+    text-align: center;
+}
+.butn1:hover
+{
+    /*color: aqua;*/
+    color: rgb(58, 55, 52);
+    transform: scale(1.15);
+    background-color:rgb(14, 13, 13) 
+}
+.butn1 a{
+    color: cornsilk;
+    text-decoration: none;
+}
+.butn2
+{
+    font-size: 20px;
+    font-family: 'Copperplate Gothic';
+    top: 70%;
+	left:42%;
+	position: absolute;
+	width: 200px;
+	height: 55px;
+	background:rgba(22, 20, 20, 0.74);
+	border-radius: 20px;
+	transition: .5s;
+    text-align: center;
+}
+.butn2:hover
+{
+    /*color: aqua;*/
+    color: rgb(58, 55, 52);
+    transform: scale(1.15);
+    background-color:rgb(14, 13, 13) 
+}
+.butn2 a{
+    color: cornsilk;
+    text-decoration: none;
+}
+.butn3
+{
+    font-size: 20px;
+    font-family: 'Copperplate Gothic';
+    top: 70%;
+	left:70%;
+	position: absolute;
+	width: 250px;
+	height: 50px;
+	background:rgba(22, 20, 20, 0.74);
+	border-radius: 20px;
+	transition: .5s;
+    text-align: center;
+}
+.butn3:hover
+{
+    /*color: aqua;*/
+    color: rgb(58, 55, 52);
+    transform: scale(1.15);
+    background-color:rgb(14, 13, 13) 
+}
+.butn3 a{
+    color: cornsilk;
+    text-decoration: none;
+}

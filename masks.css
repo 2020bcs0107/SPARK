@@ -1,0 +1,88 @@
+body{
+    background: url(images/mask1.jpg) no-repeat top center;
+    background-size: cover;
+    height: 10vh;
+}
+.text{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: auto;
+    height: auto;
+    background-color: rgba(240, 248, 255, 0.404);
+    padding: 2%;
+    font-family: copperplate gothic;
+    font-size: 20px;
+    color: rgba(8, 8, 8, 0.651);
+}
+.text:hover{
+    border-bottom: 5px solid cornflowerblue;
+    transition: border 0.3s;
+}
+.same{
+    color: rgb(100, 148, 237);
+}
+.outer{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 248, 255, 0.363);
+}
+.mask_images,.sanitizer{
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+    transition: 0.5s;
+}
+.im1,.im2,.im3,.im4{
+    padding: 40px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.im1:hover,.im2:hover,.im3:hover,.im4:hover{
+    transform: scale(1.2);
+    /*border-left: 2px solid cornflowerblue;*/
+    transition: transform 0.3s;
+}
+.im1:not(:hover),.im2:not(:hover),.im3:not(:hover),.im4:not(:hover){
+    transition: transform 0.3s;
+}
+.choose{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+}
+button{
+    padding: 5px;
+    margin: 20px;
+    text-decoration: none;
+    font-family: copperplate gothic;
+    font-weight: 1000;
+    font-size: 20px;
+    color: rgb(51, 104, 202);
+    border: 0;
+    background: transparent;
+    outline: none;
+    border-radius: 5px 5px 5px 5px;
+    /*box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.5);*/
+}
+button:hover{
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:not(:hover){
+    transition: 0.5s;
+}
+#mask_btn{
+    background-color: rgba(0,0,0,0.15);
+}
+.sanitizer{
+    display: none;
+}

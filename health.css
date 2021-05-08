@@ -1,0 +1,83 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    }
+    .split{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    background: black;
+    }
+    .split .screen{
+    position: relative;
+    flex-grow: 2;
+    display: flex;
+    overflow:hidden;
+    transition: 1s;
+    }
+    .split:hover .screen{
+    opacity:0.1;
+    }
+    .split .screen:hover{
+    flex-grow:5;
+    opacity: 1;
+    }
+    .split .screen:nth-child(1){
+    background-image:linear-gradient(rgba(255, 255, 255, 0.152),rgba(255, 255, 255, 0.152)),url(https://wallpaperaccess.com/full/1244717.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+    }
+    .split .screen:nth-child(2){
+    background-image:linear-gradient(rgba(255, 255, 255, 0.152),rgba(255, 255, 255, 0.152)),url(https://www.cnet.com/a/img/resize/3812aab3d2ee02f738f600c51e5216d4018aa2df/hub/2021/04/21/097caa9e-1012-41a8-b9c5-6b678724a32b/cnet-covid-mental-health-story-illustration-v3.jpg?auto=webp&fit=crop&height=1293&width=2300);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+    }
+    .split .screen:nth-child(3){
+    background-image:linear-gradient(rgba(255, 255, 255, 0.152),rgba(255, 255, 255, 0.152)),url(https://i.pinimg.com/originals/4d/17/3d/4d173d720ee710c9776548f34a85d481.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+    }
+    .box {
+        color: rgb(221, 216, 210);
+        transition: 0.6s;
+        width: 300px;
+        height: 500px;
+        background-color: rgba(22, 20, 20, 0.74);
+        margin: 10px 10px;
+        border-radius: 15px;
+        display: block;
+        font-family: "Copperplate Gothic";
+    }
+    
+    .box:hover {
+        color: rgb(220, 220, 236);
+        background-color: rgb(42, 42, 44);
+    }
+.btn
+{
+    font-size: 20px;
+    font-family: 'Copperplate Gothic';
+    top: 85%;
+	left:35%;
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	background:rgba(22, 20, 20, 0.74);
+	border-radius: 20px;
+	transition: .5s;
+}
+.btn:hover
+{
+    /*color: aqua;*/
+    color: rgb(58, 55, 52);
+    transform: scale(1.15);
+    background-color:rgb(14, 13, 13) 
+}
+.btn a{
+    color: cornsilk;
+    text-decoration: none;
+}

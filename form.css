@@ -1,0 +1,73 @@
+body{
+    background: url(images/nature.jpg) no-repeat top center;
+    background-size: cover;
+    height: 100vp;
+}
+.outer{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: auto;
+}
+.sheet{
+    background-color: rgba(15, 19, 18, 0.274);
+    padding: 30px;
+    display: flex;
+}
+.input_fields{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.input,textarea{
+    margin: 10px;
+    width: 80%;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #dfe8e8;
+    outline: none;
+    padding: 10px;
+}
+label{
+    color: #dfe8e8;
+}
+.checkbox,label{
+    position: relative;
+    top: 15%;
+    margin-left: 7%;
+    font-family: copperplate gothic;
+    font-weight: 1000;
+    font-size: 17px;
+    border: 0;
+    outline: none;
+}
+.probs{
+    position: relative;
+    margin-top: 19%;
+}
+.btn{
+    margin-top: 10%;
+    margin-left: 35%;
+    padding: 10px 20px 10px 20px;
+    font-family: copperplate gothic;
+    font-weight: 1000;
+    font-size: 15px;
+    color: #dfe8e8;
+    background-color: #dfe8e84b;
+    border: 0;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.2);
+    background-color: rgba(85, 194, 140, 0.623);
+    transition: transform 0.5s;
+}
+.btn:not(:hover){
+    transition: transform 0.5s;
+}
+::-webkit-input-placeholder{
+    color: #dfe8e8;
+    font-family: copperplate gothic;
+    font-weight: 1000;
+    font-size: 17px;
+}

@@ -1,0 +1,82 @@
+body{
+    background: url(images/boy.jpg) no-repeat top center;
+    background-size: cover;
+    height: 10vh;
+}
+.container{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    /*background-color: rgba(100, 148, 237, 0.349);*/
+    margin-top: 150px;
+    margin-left: 100px;
+    border: 2px;
+    border-color: black;
+}
+.hospital{
+    position: absolute;
+    width: 175px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+.ambulance{
+    position: absolute;
+    width: 175px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 300px;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+.oxygen{
+    position: absolute;
+    width: 175px;
+    height: 150px;
+    margin-top: 300px;
+    margin-left: 50px;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+.plasma{
+    position: absolute;
+    width: 175px;
+    height: 150px;
+    margin-top: 300px;
+    margin-left: 300px;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+.others{
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 550px;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+h3{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 625px;
+}
+h4{
+    text-align: center;
+    font-family: copperplate gothic;
+}
+div:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.container:hover{
+    transform: scale(1);
+}
+div:not(:hover){
+    transition: transform 0.5s;
+}
+div{
+    border: 5px black;
+    border-radius: 10px 10px 10px 10px;
+}
+img{
+    border: 5px black;
+    border-radius: 0px 0px 10px 10px;
+}

@@ -1,0 +1,27 @@
+body{
+    overflow: auto;
+    background-image: linear-gradient(rgba(233, 13, 222, 0.152),rgba(243, 21, 243, 0.152)),url(https://images.unsplash.com/photo-1525190809240-c06c7cbf17d7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVwcmVzc2lvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+    font-family: "Copperplate Gothic";
+    font-size:18px;
+    font-weight: 800;
+}
+.center{
+    color:rgb(204, 146, 146);
+    text-align: center;
+}
+.box {
+    color: rgb(221, 216, 210);
+    transition: 0.6s;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(22, 20, 20, 0.74);
+    margin: 10px 10px;
+    border-radius: 15px;
+    display: block;
+    font-family: "Copperplate Gothic";
+}
+
+.box:hover {
+    color: rgb(220, 220, 236);
+    background-color: rgb(42, 42, 44);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="masks.css">
+        <script language="javascript">
+            function display_sanitizer(){
+                document.getElementById("mask").style.display="none";
+                document.getElementById("sanitizer").style.display="inline";
+                document.getElementById("sanitizer_btn").style.backgroundColor="rgba(0, 0, 0, 0.25)";
+                document.getElementById("mask_btn").style.backgroundColor="transparent";
+            }
+            function display_mask(){
+                document.getElementById("mask").style.display="inline";
+                document.getElementById("sanitizer").style.display="none";
+                document.getElementById("mask_btn").style.backgroundColor="rgba(0, 0, 0, 0.25)";
+                document.getElementById("sanitizer_btn").style.background="transparent";
+            }
+        </script>
+    </head>
+    <body>
+        <div class="text">
+            <h1>Wear a <div class="same">MASK</div>Be a <br>WARRIOR</h1>
+        </div>
+        <div class="outer" id="outline">
+
+            <div class="mask_images" id="mask">
+                <div class="im1"><a href="https://www.amazon.in/EUME-Anti-Pollution-Adjustable-Comfortable-Breathable/dp/B08B4QW4YQ/ref=sr_1_13?crid=8AOOLD38RGLA&dchild=1&keywords=face+mask+for+men&qid=1620464592&sprefix=face+mask%2Caps%2C301&sr=8-13" target="_blank"><img src="images/mask10.png" width="100%" height="100%"></a></div>
+                <div class="im2"><a href="https://ramrajcotton.in/collections/face-mask/products/flexible-face-mask-3-layer-black-3-pcs-pack" target="_blank"><img src="images/mask12.png" width="100%" height="100%"></a></div><br>
+                <div class="im3"><a href="https://www.amazon.in/Wildcraft-HypaShield-Reusable-6-Layer-Anti-Pollution/dp/B088HBBKCP/ref=sr_1_5?crid=2H62SDO05OJCT&dchild=1&keywords=wildcraft+masks+for+men&qid=1620408568&sprefix=wildc%2Caps%2C307&sr=8-5" target="_blank"><img src="images/mask9.png" width="100%" height="100%"></a></div>
+                <div class="im4"><a href="https://www.amazon.in/KORRUN-Disposable-Breathable-Protective-pollution/dp/B08DTQBGTY/ref=sr_1_1_sspa?crid=37PNTDZAEPJUO&dchild=1&keywords=surgical+mask+3+layer+with+nose+clip&qid=1620408167&sprefix=surgical%2Caps%2C313&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyRzFHRFpESEZGVk1BJmVuY3J5cHRlZElkPUEwODM4Mjk3WUo5MzJRMzhIRDNHJmVuY3J5cHRlZEFkSWQ9QTA1MDIzMzEyVkJCSDk0QVVXWkM0JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==" target="_blank"><img src="images/mask6.png" width="100%" height="100%"></a></div>
+            </div>
+
+            <div class="sanitizer" id="sanitizer">
+                <div class="im1"><a href="https://www.amazon.in/Lifebuoy-Alcohol-Based-Protection-Sanitizer/dp/B0866JTZXN/ref=sr_1_1_sspa?crid=3ATDUOARPE3K3&dchild=1&keywords=lifebuoy+hand+sanitizer&qid=1620463976&smid=AT95IG9ONZD7S&sprefix=life%2Caps%2C304&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExTDdBQkc1WEVJVkJUJmVuY3J5cHRlZElkPUEwNjg0MTE2M0Q1OTY3QTlGNk9LUyZlbmNyeXB0ZWRBZElkPUEwMDI4NTEyM1QzUkNHSkRLR1I4SiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=" target="_blank"><img src="images/sanitizer1.png" width="100%" height="100%"></a></div>
+                <div class="im2"><a href="https://www.savlon.in/hand-sanitizer-liquid" target="_blank"><img src="images/sanitizer2.png" width="100%" height="100%"></a></div><br>
+                <div class="im3"><a href="https://www.amazon.in/Dettol-Original-Instant-Hand-Sanitizer/dp/B016D3N72A/ref=sr_1_7?dchild=1&keywords=dettol+hand+sanitizer&qid=1620464226&sr=8-7" target="_blank"><img src="images/sanitizer3.png" width="100%" height="100%"></a></div>
+                <div class="im4"><a href="https://www.amazon.in/Himalaya-PureHands-Hand-Sanitizer-Lemon/dp/B00DOU23C6/ref=sr_1_6?crid=Y5GD06Q9R6FW&dchild=1&keywords=himalaya+pure+hand+sanitizer&qid=1620464260&sprefix=himala%2Caps%2C290&sr=8-6" target="_blank"><img src="images/sanitizer4.png" width="100%" height="100%"></a></div>
+            </div>
+        
+            <div class="choose">
+                <button id="mask_btn" href="" onclick="display_mask()">Masks</button><button id="sanitizer_btn" onclick="display_sanitizer()">Sanitizers</button>
+            </div>
+        
+        </div>
+    </body>
+</html>

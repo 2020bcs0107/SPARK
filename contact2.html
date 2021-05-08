@@ -1,0 +1,189 @@
+<html>
+
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.152), rgba(255, 255, 255, 0.152)), url(https://wallpaperaccess.com/full/136920.jpg);
+            background-position-y: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .contact {
+            padding: 4%;
+            height: 400px;
+        }
+
+        .col-md-3 {
+            margin-top: 8%;
+            background: rgba(255, 255, 255, 0.541);
+            padding: 4%;
+            border-top-left-radius: 0.9rem;
+            border-bottom-left-radius: 0.9rem;
+        }
+
+        .contact-info {
+            margin-top: 10%;
+        }
+
+        .contact-info img {
+            margin-bottom: 15%;
+        }
+
+        .contact-info h2 {
+            margin-bottom: 10%;
+        }
+
+        .col-md-9 {
+            margin-top: 8%;
+            background: rgba(2, 49, 53, 0.9);
+            padding: 3%;
+            border-top-right-radius: 0.9rem;
+            border-bottom-right-radius: 0.9rem;
+        }
+
+        .contact-form label {
+            font-weight: 600;
+        }
+
+        .contact-form button {
+            margin-top: 1.5%;
+            background: white;
+            color: #25274d;
+            font-weight: 600;
+            width: 25%;
+        }
+
+        .contact-form button:focus {
+            box-shadow: none;
+        }
+
+        .icons {
+            transition: 0.2s;
+            position: absolute;
+            font-size: 40px;
+            left: 80%;
+            text-decoration: none;
+            color: black;
+        }
+
+        .icons:hover {
+            transform: scale(1.15);
+        }
+
+        .contact-form button:hover {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.541);
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container contact">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="row" style="position: absolute; top: 15%;">
+                    <div class="col">
+                        <a href="https://goo.gl/maps/QpVuxeyXPPWoTXad8"><i class="fas fa-map-marker-alt icons"></i></a>
+                    </div>
+                    <div class="col">
+                        <div class="row" style="position: absolute; left: 180%;">
+                            <h4 style="bottom: 10;">Location</h4>
+                            <p style="position: absolute; bottom: -30;">Visakhapatnam</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="position: absolute; top: 40%;">
+                    <div class="col-sm-2">
+                        <a href=""><i class="fas fa-envelope icons" style="position: absolute; font-size: 40px; left: 80%;"></i></a>
+                    </div>
+                    <div class="col">
+                        <div class="row" style="position: absolute; left: 190%;">
+                            <h4 style="bottom: 10;">Email</h4>
+                            <p style="position: absolute; bottom: -30;">aarthireddy@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="position: absolute; top: 65%;">
+                    <div class="col-sm-2">
+                        <i class="fas fa-user icons" style="position: absolute; font-size: 40px; left: 80%;"></i>
+                    </div>
+                    <div class="col">
+                        <div class="row" style="position: absolute; left: 190%;">
+                            <h4 style="bottom: 10;">Phone</h4>
+                            <p style="position: absolute; bottom: -30;">+918074****74</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="contact-form">
+                    <div class="row" style="margin-left: 3px;">
+                        <label class="control-label col-sm-5" for="lname" style="color: white;">Name:</label>
+                        <label class="control-label col-sm-5" for="fname" style="color: white;">Email:</label>
+                    </div>
+                    <div class="row" style="margin-left: 3px;">
+                        <div class="col-sm-5">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="fname" placeholder="Enter Name"
+                                    name="fname">
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" id="lname" placeholder="Enter Email"
+                                    name="lname">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-3" for="email" style="color: white;">Phone Number:</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="email" placeholder="Enter Phone Number"
+                                name="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="comment" style="color: white;">Comment:</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default" onclick="myFunction()">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            alert("Thank You for your Feedback!!");
+        }
+    </script>
+
+</body>
+
+</html>
